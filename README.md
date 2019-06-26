@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/mwinel/ireporter-react-app.svg?branch=ch-setup-travis-ci)](https://travis-ci.com/mwinel/ireporter-react-app)
+[![Build Status](https://travis-ci.com/mwinel/ireporter-react-app.svg?branch=develop)](https://travis-ci.com/mwinel/ireporter-react-app)
 
 # iReporter
 
