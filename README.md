@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/mwinel/ireporter-react-app.svg?branch=develop)](https://travis-ci.com/mwinel/ireporter-react-app)
+[![Build Status](https://travis-ci.com/mwinel/ireporter-react-app.svg?branch=develop)](https://travis-ci.com/mwinel/ireporter-react-app)    [![Maintainability](https://api.codeclimate.com/v1/badges/71e4997571d195542da9/maintainability)](https://codeclimate.com/github/mwinel/ireporter-react-app/maintainability)    [![Test Coverage](https://api.codeclimate.com/v1/badges/71e4997571d195542da9/test_coverage)](https://codeclimate.com/github/mwinel/ireporter-react-app/test_coverage)
 
 # iReporter
 

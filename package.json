@@ -20,6 +20,15 @@
       "git add"
     ]
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js"
+    ],
+    "coverageReporters": [
+      "lcov"
+    ]
+  },
   "author": "Nelson Mwirumubi",
   "license": "ISC",
   "devDependencies": {
