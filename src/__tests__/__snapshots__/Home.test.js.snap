@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component Should match snapshot 1`] = `
+<div>
+  <h1>
+    Welcome to iReporter!
+  </h1>
+</div>
+`;
