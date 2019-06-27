@@ -2,8 +2,22 @@
 
 exports[`Home Component Should match snapshot 1`] = `
 <div>
-  <h1>
-    Welcome to iReporter!
-  </h1>
+  <Navbar />
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="flag-content"
+      >
+        <h1>
+          Welcome to iReporter!
+        </h1>
+      </div>
+    </div>
+    <Footer />
+  </div>
 </div>
 `;

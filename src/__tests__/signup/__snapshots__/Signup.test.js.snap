@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp Component Should match snapshot 1`] = `
+<div>
+  <Navbar />
+  <div
+    className="row"
+  >
+    <form
+      id="addUser"
+      onSubmit={[Function]}
+    >
+      <h2>
+        Please Sign Up
+      </h2>
+      <input
+        name="firstname"
+        onChange={[Function]}
+        placeholder="Enter firstname"
+        type="text"
+        value=""
+      />
+      <input
+        name="lastname"
+        onChange={[Function]}
+        placeholder="Enter lastname"
+        type="text"
+        value=""
+      />
+      <input
+        name="othernames"
+        onChange={[Function]}
+        placeholder="Enter othernames"
+        type="text"
+        value=""
+      />
+      <input
+        name="username"
+        onChange={[Function]}
+        placeholder="Enter username"
+        type="text"
+        value=""
+      />
+      <input
+        name="email"
+        onChange={[Function]}
+        placeholder="Enter email"
+        type="text"
+        value=""
+      />
+      <input
+        name="password"
+        onChange={[Function]}
+        placeholder="Enter password"
+        type="text"
+        value=""
+      />
+      <input
+        name="phone_number"
+        onChange={[Function]}
+        placeholder="Enter phone number"
+        type="text"
+        value=""
+      />
+      <button
+        className="btn-signup"
+        type="submit"
+      >
+        Sign Up
+      </button>
+      <p
+        className="form-footer"
+      >
+        Already have an account 
+        <a
+          href="./login"
+        >
+          Login
+        </a>
+        .
+      </p>
+    </form>
+  </div>
+  <Footer />
+</div>
+`;
