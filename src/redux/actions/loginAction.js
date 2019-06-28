@@ -11,6 +11,8 @@ const login = loginData => dispatch => {
   })
     .then(res => res.json())
     .then(data => {
+      const { access_token } = data;
+      localStorage.setItem('accessToken', access_token);
       dispatch({
         type: loginTypes.LOGIN_SUCCESS,
         payload: data
@@ -18,8 +20,7 @@ const login = loginData => dispatch => {
       if (data.message) {
         alert(`${data.message}`);
         window.setTimeout(function () {
-          window.location.replace('/');
-          window.location.reload(true);
+          document.location.href = './incidents';
         }, 1000);
       } else if (data.error) {
         alert(`${data.error}`);
