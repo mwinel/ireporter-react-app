@@ -35,7 +35,7 @@ exports[`Navbar Component Should match snapshot 1`] = `
           signup
         </a>
         <a
-          href="#"
+          href="./login"
         >
           login
         </a>

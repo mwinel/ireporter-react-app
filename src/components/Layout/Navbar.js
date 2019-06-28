@@ -13,7 +13,7 @@ class Navbar extends Component {
             <input type="checkbox" id="toggle" />
             <div className="menu">
               <a href="./signup">signup</a>
-              <a href="#">login</a>
+              <a href="./login">login</a>
             </div>
           </div>
         </div>

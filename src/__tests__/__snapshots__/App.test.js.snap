@@ -31,6 +31,19 @@ exports[`App Component Should match snapshot 1`] = `
       exact={true}
       path="/signup"
     />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(Login)",
+          "type": [Function],
+        }
+      }
+      exact={true}
+      path="/login"
+    />
   </Provider>
 </BrowserRouter>
 `;
