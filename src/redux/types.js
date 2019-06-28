@@ -5,3 +5,7 @@ export const signupTypes = {
 export const loginTypes = {
   LOGIN_SUCCESS: "LOGIN_SUCCESS"
 };
+
+export const incidentsTypes = {
+  FETCH_INCIDENTS: "FETCH_INCIDENTS"
+};

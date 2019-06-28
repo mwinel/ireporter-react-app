@@ -1,23 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home Component Should match snapshot 1`] = `
-<div>
-  <Navbar />
-  <div
-    className="container"
-  >
-    <div
-      className="row"
-    >
-      <div
-        className="flag-content"
-      >
-        <h1>
-          Welcome to iReporter!
-        </h1>
-      </div>
-    </div>
-    <Footer />
-  </div>
-</div>
+<ContextProvider
+  value={null}
+>
+  <Home
+    fetchIncidents={[Function]}
+    getState={[MockFunction]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
 `;
