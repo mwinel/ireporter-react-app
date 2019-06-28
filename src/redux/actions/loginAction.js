@@ -11,8 +11,8 @@ const login = loginData => dispatch => {
   })
     .then(res => res.json())
     .then(data => {
-      const { accessToken } = data;
-      localStorage.setItem('access_token', accessToken);
+      const { access_token } = data;
+      localStorage.setItem('accessToken', access_token);
       dispatch({
         type: loginTypes.LOGIN_SUCCESS,
         payload: data
