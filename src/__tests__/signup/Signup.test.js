@@ -40,6 +40,23 @@ describe('SignUp Component', () => {
     SignUpComponent.instance().onSubmit(mockEvent);
     expect(toJson(SignUpComponent)).toMatchSnapshot();
   });
+
+  it('should trigger onChange on signup', () => {
+    const signup = { 
+      firstname: 'hahahahahha',
+      lastname: 'ahahahahahhaha',
+      othernames: 'aahahahahhahaha',
+      username: 'mwinelnnnnn',
+      email: 'kisuulejames1@gmail.com',
+      password: 'password',
+      phone_number: '123456',
+    }
+    const evt = {
+      preventDefault: jest.fn(),
+      target: signup
+    }
+    expect(SignUpComponent.instance().onChange(evt));
+  });
 });
 
 describe("signup success", () => {

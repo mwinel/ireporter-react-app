@@ -5,6 +5,7 @@ import '../styles/App.css';
 import store from '../redux/store';
 import Home from '../components/Home';
 import SignUp from '../components/SignUp';
+import Login from '../components/Login';
 
 class App extends Component {
   render () {
@@ -13,6 +14,7 @@ class App extends Component {
         <Provider store={store}>
           <Route exact path="/" component={Home} />
           <Route exact path="/signup" component={SignUp} />
+          <Route exact path="/login" component={Login} />
         </Provider>
       </BrowserRouter>
     );
